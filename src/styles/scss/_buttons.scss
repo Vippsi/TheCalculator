@@ -11,21 +11,20 @@ button {
     background: hsl(0, 0%, 55%);
   }
 
-  @media only screen and (max-width: 600px) {
-    height: 6.5rem;
-  }
-
-  @media only screen and (max-width: 768px) {
-    height: 8rem;
+  @media only screen and (max-width: 1200px) {
+    height: 9.3rem;
   }
 
   @media only screen and (max-width: 992px) {
     height: 8.8rem;
   }
 
-  @media only screen and (max-width: 1200px) {
-    height: 9.3rem;
+  @media only screen and (max-width: 768px) {
+    height: 8rem;
+  }
 
+  @media only screen and (max-width: 600px) {
+    height: 6.3rem;
   }
 }
 
@@ -86,12 +85,12 @@ button {
       background-position: 0 100%;
     }
 
-    @media only screen and (max-width: 600px) {
-      font-size: 3rem;
-    }
-
     @media only screen and (max-width: 768px) {
       font-size: 4rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
     }
   }
 }

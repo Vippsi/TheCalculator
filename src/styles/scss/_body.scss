@@ -9,15 +9,11 @@
   display: flex;
   flex-direction: column;
 
-  @media only screen and (max-width: 600px) {
-    width: 38rem;
-    height: 60rem;
-  }
-
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1200px) {
     margin-top: 3rem;
-    width: 55rem;
-    height: 70rem;
+    width: 50rem;
+    height: 76rem;
+    margin-right: 1.5rem;
   }
 
   @media only screen and (max-width: 992px) {
@@ -26,11 +22,15 @@
     height: 75rem;
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 768px) {
     margin-top: 3rem;
-    width: 50rem;
-    height: 76rem;
-    margin-right: 1.5rem;
+    width: 55rem;
+    height: 70rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 38rem;
+    height: 60rem;
   }
 
   .calculator-screen {
@@ -46,11 +46,11 @@
     padding-top: 0.25rem;
     padding-right: 1rem;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 992px) {
       margin-top: 2rem;
     }
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 768px) {
       margin-top: 2rem;
     }
   }
