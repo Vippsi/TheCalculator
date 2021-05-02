@@ -1,0 +1,97 @@
+button {
+  height: 10rem;
+  font-size: 2rem;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+  background: hsl(0, 0%, 45%);
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+
+  &:hover {
+    background: hsl(0, 0%, 55%);
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 6.5rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 8rem;
+  }
+
+  @media only screen and (max-width: 992px) {
+    height: 8.8rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    height: 9.3rem;
+
+  }
+}
+
+.equal-sign {
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  grid-row-start: 4;
+  grid-row-end: 6;
+  height: 100%;
+
+  background: hsl(19, 65%, 45%);
+
+  &:hover {
+    background: hsl(19, 65%, 55%);
+  }
+}
+
+.zero-button {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.logo-div {
+  margin: 0 auto;
+
+  .vipp-button {
+    width: 124px;
+    margin-bottom: 1rem;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .logo {
+    font-family: 'Kaushan Script', cursive;
+    color: #f48769;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 300;
+    transform: rotate(-15deg);
+    overflow: hidden;
+    background: linear-gradient(to right, #f48769, #f48769 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 100%;
+    background-position: 100%;
+    transition: background-position 500ms ease;
+    padding-right: 0.8rem;
+    margin-right: -0.8rem;
+    padding-bottom: 1rem;
+    margin-bottom: -0.7rem;
+
+    &:hover {
+      background-position: 0 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+}
