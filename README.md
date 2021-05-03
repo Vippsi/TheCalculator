@@ -12,14 +12,14 @@ I built and maintain this project as a simple, yet effective way to demonstrate 
 ---
 
 ## Code Style
-https://img.shields.io/badge/Code%20Style-Standard-brightgreen
+![Code Style](https://img.shields.io/badge/Code%20Style-Standard-brightgreen)
 
 
 ---
 ---
 ## Tech/Frameworks Used
-https://img.shields.io/badge/ReactJs-17.0.2-blue
-https://img.shields.io/static/v1?label=SASS&message=1.32.12&color=ff69b4
+![React](https://img.shields.io/badge/ReactJs-17.0.2-blue)
+![SASS](https://img.shields.io/static/v1?label=SASS&message=1.32.12&color=ff69b4)
 
 ---
 ---
